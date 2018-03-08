@@ -8,7 +8,7 @@
  */
 
 import sequelize from '../sequelize';
-import User from './User';
+import Kuski from './Kuski';
 import UserLogin from './UserLogin';
 import UserClaim from './UserClaim';
 import UserProfile from './UserProfile';

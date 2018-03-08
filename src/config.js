@@ -33,7 +33,13 @@ module.exports = {
   },
 
   // Database
-  databaseUrl: process.env.DATABASE_URL || 'sqlite:database.sqlite',
+  mysql: {
+    host: 'eol1test.cyn0krffkpzu.us-east-2.rds.amazonaws.com',
+    port: 3306,
+    user: 'balls',
+    pass: 'poppetmaster',
+    database: 'eol1',
+  },
 
   // Web analytics
   analytics: {
